@@ -1,7 +1,30 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+/* Kurt Additions */
+div.highlight pre {
+	background: #f3f3f3;
+	padding: 10px;
+	font-family: 'Fira Code', 'Source Code Pro', monospace;
+}
+
+code {
+	background: #f3f3f3;
+	padding: 3px 5px;
+	border-radius: 5px;
+	font-family: 'Fira Code', 'Source Code Pro', monospace;
+}
+
+
+blockquote {
+	background: rgb(241, 246, 249);
+	border-left: #b6b6ff 2px solid;
+	padding-left: 5px;
+}
+/******************/
 
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Ubuntu, 'Open Sans', Arial, sans-serif;
   background: #778;
   padding: 0;
   margin: 0;
@@ -203,7 +226,7 @@ body.presenter_view div#current_presenter_notes {
 }
 
 body.presenter_view div#current_presenter_notes section {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Ubuntu, 'Open Sans', Arial, sans-serif;
   color: black;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
   display: block;
@@ -276,7 +299,7 @@ body.three-d div.slides {
 
 /* Content */
 header:not(:only-child) {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Ubuntu, 'Open Sans', Arial, sans-serif;
   font-weight: normal;
   font-size: 50px;
   letter-spacing: -.05em;
@@ -298,7 +321,7 @@ header h1, header h2, header h3, header h4, header h5, header h6 {
 }
 
 header h1 {
-	border-bottom: 2px dotted #88e;
+	border-bottom: 2px solid #cdc9ff;
 }
 
 header h2:first-child {
@@ -306,7 +329,7 @@ header h2:first-child {
 }
 
 section, .slide header:only-child h1 {
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: Ubuntu, 'Open Sans', Arial, sans-serif;
   color: #515151;
   /* color: #3f3f3f; */
   /* text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px; */
@@ -347,7 +370,7 @@ a {
 
 pre {
   font-size: 16px;
-  font-family: Monaco, Courier, monospace;
+  font-family: "Fira Code", "Source Code Pro", "Courier New", monospace;
 }
 
 li {
