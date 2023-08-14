@@ -3,6 +3,27 @@ Landslide themes
 
 Themes for Landslide (https://github.com/adamzap/landslide)
 
+Altered theming from https://github.com/Kaljurand/landslide-themes
+
+Support for fenced code blocks and highlightjs.
+
+To enable highlightjs syntax highlighting, simply use fenced code blocks like so:
+
+````
+```rust
+fn add(a: i32, b: i32) -> i32 {
+    a + b
+}
+```
+````
+
+Then invoke landslide with:
+
+```sh
+# Notice the `-x extra` to enable fenced code blocks
+landslide <file.md> -t <path/to/simple> -x extra
+```
+
 Themes
 ------
 
